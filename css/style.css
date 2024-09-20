@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Flex-container*/
+.nav-links {
+    background-color: #ccc; /* Background color of nav */
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+  ul li {
+    list-style: none;
+    
+  }
+
+  /* Flex-items*/
+  .nav-links a {
+    display: inline-block;
+    background-color: #499770;
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    padding: 8px 16px; /* Padding around the links */
+    border-radius: 4px; /* Slightly rounded corners */
+  }
+
+  /* ett flex-item*/
+  .home {
+    /*align-self: center;*/
+    margin-right: auto;
+  }
